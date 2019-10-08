@@ -1,0 +1,39 @@
+{
+    "name": "asheliahut/mock-laravel-app",
+    "description": "A mock laravel app to inject into laravel components outside of laravel.",
+    "version": "1.0.0",
+    "type": "module",
+    "keywords": ["api", "slim", "laravel", "mock"],
+    "homepage": "https://github.com/asheliahut/mock-laravel-app",
+    "time": "2017-10-12",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Ashley Hutson",
+            "email": "asheliahut@gmail.com",
+            "homepage": "https://github.com/asheliahut"
+        }
+    ],
+    "support": {
+        "email": "asheliahut@gmail.com",
+        "issues": "https://github.com/asheliahut/mock-laravel-app/issues",
+        "wiki": "https://github.com/asheliahut/mock-laravel-app/wiki",
+        "source": "https://github.com/asheliahut/mock-laravel-app",
+        "docs": "https://github.com/asheliahut/mock-laravel-app/wiki"
+    },
+    "require": {
+        "php": ">=7.1",
+	"illuminate/contracts": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asheliahut\\Mock\\": "src" 
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

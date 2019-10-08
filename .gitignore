@@ -1,0 +1,13 @@
+*.mwb.bak
+*.pid
+*.retry
+*.sublime-*
+.DS_Store
+.php_cs.cache
+.subsplit
+.vagrant/
+.vendor/
+.venv/
+.idea/
+vendor/
+tmp/
